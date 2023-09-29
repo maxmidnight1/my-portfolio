@@ -1,0 +1,28 @@
+/* Header overall styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for social media links */
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  /* Style for internal links */
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  /* Style for FontAwesome icons */
+  header .fa {
+    transition: color 0.3s;
+  }
+  
+  header .fa:hover {
+    color: #00acee; /* Change this to a color you prefer */
+  }
+  

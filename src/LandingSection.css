@@ -1,0 +1,40 @@
+.about {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .bio p {
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .bio strong {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .avatar {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
